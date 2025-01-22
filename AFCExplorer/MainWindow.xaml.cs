@@ -253,7 +253,7 @@ namespace AFCExplorer
             inputDialog.Title = "Name of directory.";
             inputDialog.TextBox.Text = "New Folder";
             inputDialog.ShowDialog();
-            if (inputDialog.result == System.Windows.Forms.DialogResult.Cancel) return;
+            if (inputDialog.result != System.Windows.Forms.DialogResult.OK) return;
             afc.afc_make_directory(afcHandle, path + inputDialog.TextBox.Text);
             ReadDirectory();
         }
