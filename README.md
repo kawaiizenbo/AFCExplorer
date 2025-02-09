@@ -1,4 +1,5 @@
 # AFCExplorer
+## This repo has moved, please see https://git.kawaiizenbo.me/kawaiizenbo/AFCExplorer
  AFC File Browser for iOS Devices
 
 ## Requirements
